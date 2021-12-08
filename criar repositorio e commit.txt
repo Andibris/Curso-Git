@@ -17,5 +17,6 @@ agora criar o arquivo dentro da pasta
 com o arquivo editado e tal:
 git add *
 entra
+git commit -m "mensagem do commit"
 
 
