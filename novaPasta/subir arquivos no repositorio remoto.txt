@@ -1,0 +1,9 @@
+crie um repositório no github, depois copie seu link url
+git  remote add origin + url
+entra
+git push origin master
+
+(origin foi o apelido dado ao url e master é a branch usada)
+
+vai pedir as credenciais de login para o github;
+pronto
