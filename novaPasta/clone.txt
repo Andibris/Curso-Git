@@ -1,0 +1,4 @@
+para clonar um repositório é só copiar o url e no git chamar:
+git clone + url
+enter
+o repositório será criado na pasta.
