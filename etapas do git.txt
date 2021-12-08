@@ -1,0 +1,20 @@
+o git funciona da seguinte maneira:
+arquivos não rastreados serão rastreados ao dar o comando git add
+o arquivo vai de untracked para staged esperando o commit
+ao dar o commit o arquivo vai de staged para unmodified 
+para reiniciar o ciclo, podendo
+posteriormente ir para modified e staged de novo;
+                        ___________________________________
+_______________________|              TRACKED              |
+untracked         unmodified         modified         staged
+|-----add o arquivo----|-----------------|---------------->|
+|<-----remove o arq----|                 |                 |
+|                      |---edita o arq-->|                 |
+|                      |                 |---stage o arq-->|
+|                      |<----------------|------commit---->|
+
+no seu repositório local você fica trabalhando entre o working directory
+e a staging area e quando você realiza um commit, os arquivos são 
+colocados no repositório local... aí para colocar no github por exemplo,
+precisa subir o repositório local para o repositório remoto.
+
